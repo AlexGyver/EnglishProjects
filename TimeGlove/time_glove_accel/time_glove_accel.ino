@@ -1,9 +1,9 @@
-int light = 200; //задержка, свет включен, микросекунд
-int dark; //свет выключен, микросекунды
-int min_dark = 1; //миминмальная задержка темноты
-int max_dark = 50; //максимальная задержка темноты
-byte light_pin = 2; //сюда подключен свет
-byte potent_pin = 6;  //аналоговый пин потенциометра
+int light = 200;      // LIGHTS ON delay, microseconds
+int dark;             // LIGHTS OFF delay
+int min_dark = 1;     // min dark delay
+int max_dark = 50;    // max dark delay
+#define light_pin 2   // MOSFET pin
+#define  potent_pin 6 // potentiometer pin
 int angle;
 boolean flag;
 long lastchange;
@@ -43,24 +43,26 @@ void setup() {
 }
 
 void loop() {
-  measure();
-
-  if (accZ > 25000 && (millis() - lastchange > 300)) {  // если ускорение по оси Z больше порогового
-    flag = !flag;                                       // переключить свет
-    lastchange = millis();                              // запомнить время (чтобы сразу не выключился свет)
+  measure();                                            // obtain acceleration and angle speeds
+  if (accZ > 25000 && (millis() - lastchange > 300)) {  // Z axis shake detection
+    flag = !flag;                                       // toggle light
+    lastchange = millis();                              // timer
   }
 
   if (flag == 1) {
-    angle = 250 - kalAngleZ;  //вычисляем угол, сделав поправку на 250 градусов
-    dark = map(analogRead(potent_pin), 0, 1024, min_dark, max_dark); //расчет времени темноты как сумму угла с датчика угла и значения с потенциометра
-    digitalWrite(light_pin, 1); // Включаем свет
-    delayMicroseconds(light); // ждем
-    digitalWrite(light_pin, 0); // выключаем
-    delay(dark);
-    delayMicroseconds(2000 + angle * 10); // ждем
+    angle = 250 - kalAngleZ;   // calculate angle (with 250 degrees offset)
+    
+    // dark times calculation
+    dark = map(analogRead(potent_pin), 0, 1024, min_dark, max_dark);
+    digitalWrite(light_pin, 1);    // lights up
+    delayMicroseconds(light);      // wait
+    digitalWrite(light_pin, 0);    // lights down
+    delay(dark);                   // wait
+    delayMicroseconds(2000 + angle * 10); // extra wait
   }
 }
 
+// oh my god, it's some tricky sh*t
 void measure() {
   uint8_t* data = i2cRead(0x3B, 14);
   accX = ((data[0] << 8) | data[1]);
@@ -98,4 +100,3 @@ uint8_t* i2cRead(uint8_t registerAddress, uint8_t nbytes) {
     data [i] = Wire.read();
   return data;
 }
-

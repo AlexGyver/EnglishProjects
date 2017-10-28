@@ -11,14 +11,14 @@ Powerful strobe with frequency adjustment
 ![SCHEME](https://github.com/AlexGyver/EnglishProjects/blob/master/TimeGlove/scheme2.jpg)
 
 ## Components
-✔ Glove http://ali.pub/1ypcm5
-✔ LED 100W, white http://ali.pub/1ypcoa
-✔ Optics http://ali.pub/1ypda2 http://ali.pub/1ypdc0
-✔ DCDC boost http://ali.pub/1ypdeq  http://ali.pub/1ypdfb
-✔ Arduino NANO http://ali.pub/1ypdgh
-✔ Accelerometer http://ali.pub/1ypdi8
-✔ Potentiometers http://ali.pub/1ypdky
-✔ MOSFET. Use one of this:
+* Glove http://ali.pub/1ypcm5
+* LED 100W, white http://ali.pub/1ypcoa
+* Optics http://ali.pub/1ypda2 http://ali.pub/1ypdc0
+* DCDC boost http://ali.pub/1ypdeq  http://ali.pub/1ypdfb
+* Arduino NANO http://ali.pub/1ypdgh
+* Accelerometer http://ali.pub/1ypdi8
+* Potentiometers http://ali.pub/1ypdky
+* MOSFET. Use one of this:
   + IRF3704ZPBF
   + IRLB8743PBF
   + IRL2203NPBF
@@ -34,4 +34,4 @@ Powerful strobe with frequency adjustment
   + AUIRL3705N
   + IRLB3034PBF
   + IRF3711ZPBF
-✔ Lithium battery http://ali.pub/1ypdpt
+* Lithium battery http://ali.pub/1ypdpt

@@ -6,7 +6,9 @@ Powerful strobe with frequency adjustment
 - Tilt (accelerometer) is for accurate tuning
 
 ## Schematics
-![SCHEME](https://github.com/AlexGyver/SecretKnockLock/blob/master/scheme.jpg)
+![SCHEME](https://github.com/AlexGyver/EnglishProjects/blob/master/TimeGlove/scheme1.jpg)
+
+![SCHEME](https://github.com/AlexGyver/EnglishProjects/blob/master/TimeGlove/scheme2.jpg)
 
 ## Components
 ✔ Glove http://ali.pub/1ypcm5

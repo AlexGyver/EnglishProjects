@@ -4,7 +4,7 @@ Powerful strobe with frequency adjustment
 - Shake it to light up, and shake again to light down
 - Potentiometer is for coarse adjustment of frequency
 - Tilt (accelerometer) is for accurate tuning
--[Quick start with Arduino](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
+- [Quick start with Arduino](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
 
 ## Schematics
 ![SCHEME](https://github.com/AlexGyver/EnglishProjects/blob/master/TimeGlove/scheme1.jpg)

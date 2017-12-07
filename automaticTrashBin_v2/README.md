@@ -1,17 +1,17 @@
 # Automatic Trash Bin v2
 ## Project description
 Trash bin with robotyzed cap
-- Shake it to light up, and shake again to light down
-- Potentiometer is for coarse adjustment of frequency
-- Tilt (accelerometer) is for accurate tuning
+- Pass your hand to open the cap
+- Cap will not close while your hand is above the sensor
+- Cap will close after some time after you remove your hand
 - [Quick start with Arduino](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
 
 ## Schematics
 ### Without MOSFET
-![СХЕМА](https://github.com/AlexGyver/automaticTrashcan_v2/blob/master/scheme1.jpg)
+![СХЕМА](https://github.com/AlexGyver/EnglishProjects/blob/master/automaticTrashBin_v2/scheme1.jpg)
 
 ### Power saving with MOSFET
-![СХЕМА](https://github.com/AlexGyver/automaticTrashcan_v2/blob/master/scheme2.jpg)
+![СХЕМА](https://github.com/AlexGyver/EnglishProjects/blob/master/automaticTrashBin_v2/scheme2.jpg)
 
 ## Components
 * Arduino NANO http://ali.ski/POpMO

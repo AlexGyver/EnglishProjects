@@ -40,6 +40,7 @@ SUPER-DUPER COOL ARDUINO BASED MULTICOLOR SOUND PLAYING LIGHTSABER!
 
 <a id="chapter-2"></a>
 ## Schemes
+![SCHEME](https://github.com/AlexGyver/EnglishProjects/blob/master/GyverSaber/schemes/draw.jpg)
 ![SCHEME](https://github.com/AlexGyver/EnglishProjects/blob/master/GyverSaber/schemes/scheme1.jpg)
 ![SCHEME](https://github.com/AlexGyver/EnglishProjects/blob/master/GyverSaber/schemes/scheme2.jpg)
 

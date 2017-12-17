@@ -26,6 +26,10 @@
      TRIPLE CLICK - change color (red - green - blue - yellow - pink - ice blue)
      QUINARY CLICK - change sound mode (hum generation - hum playing)
      Selected color and sound mode stored in EEPROM (non-volatile memory)
+     
+   Project GitHub repository: https://github.com/AlexGyver/EnglishProjects/tree/master/GyverSaber
+   YouTube channel: https://www.youtube.com/channel/UCNEOyqhGzutj-YS-d5ckYdg?sub_confirmation=1
+   Author: MadGyver
 */
 
 // ---------------------------- SETTINGS -------------------------------

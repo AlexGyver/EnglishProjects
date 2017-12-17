@@ -65,7 +65,7 @@ http://ali.pub/23csyd  http://ali.pub/23cszc  http://ali.pub/23cszq
 * Prototype board http://ali.pub/23mrwy  
 
 <a id="chapter-7"></a>
-## Assemply and set up
+## Assembly and set up
 * [Quick start with Arduino](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
 * Open GyverSaber.ino and tune:
   - Number of microcircuits WS2811 on LED strip (note: one WS2811 controls 3 LEDs!)

@@ -1,4 +1,4 @@
-#define DHTTYPE DHT11  // используемый датчик, DHT11 или DHT22
+#define DHTTYPE DHT11  // used sensor, DHT11 or DHT22
 
 #define potPIN A1
 #define mosPIN 2
@@ -16,6 +16,7 @@ float hum;
 int pot;
 
 void setup() {
+  // configure pins
   pinMode(mosPIN, OUTPUT);
   pinMode(sensVCC, OUTPUT);
   pinMode(sensGND, OUTPUT);
@@ -35,20 +36,20 @@ void setup() {
 }
 
 void loop() {
-  pot = analogRead(potPIN) / 10;   // перевод в диапазон примерно от 0 до 100
-  if (pot > hum) {                 // если установка больше текущей влажности
-    digitalWrite(mosPIN, 1);       // врубить всё
+  pot = analogRead(potPIN) / 10;   // convert pot value to ~0-100 range
+  if (pot > hum) {                 // if set value more than air humidity
+    digitalWrite(mosPIN, 1);       // power on
     digitalWrite(blueLED, 1);
     digitalWrite(redLED, 1);
-  } else {                         // если нет
-    digitalWrite(mosPIN, 0);       // вырубить всё
+  } else {                         // if not
+    digitalWrite(mosPIN, 0);       // power off
     digitalWrite(blueLED, 0);
     digitalWrite(redLED, 0);
   }
 
-  if (millis() - readTimer > 1000) {  // секундный таймер (для стабильности измерений)
-    hum = dht.readHumidity();         // получить значение с датчика
-    readTimer = millis();             // обнулить таймер
+  if (millis() - readTimer > 1000) {  // 1 second timeout
+    hum = dht.readHumidity();         // get humidity
+    readTimer = millis();
   }
-  delay(5);                         // задержка для стабильности
+  delay(5);                         // some delay for system stability
 }

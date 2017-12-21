@@ -24,7 +24,7 @@ Humidifier with mousture sensor
 ![СХЕМА](https://github.com/AlexGyver/EnglishProjects/blob/master/autoHumidifier/scheme2.jpg)
 
 <a id="chapter-3"></a>
-## Материалы и компоненты
+## Components
 * Ultrasonic Atomizer http://ali.pub/1z657h
 http://ali.pub/1z658g
 * Power supply 24V http://ali.pub/1z65k4

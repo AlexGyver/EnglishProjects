@@ -1,0 +1,153 @@
+{
+  "links": [
+    {
+      "id": "B1gT4MvCW",
+      "input": {
+        "nodeId": "S1Lh4Mv0W",
+        "pinKey": "HJjZLRdBw1-"
+      },
+      "output": {
+        "nodeId": "S1nRWzPC-",
+        "pinKey": "HkgBE9D8Z"
+      }
+    },
+    {
+      "id": "HkBkrzPCW",
+      "input": {
+        "nodeId": "BkeaWGw0W",
+        "pinKey": "HJ6HsEngZ"
+      },
+      "output": {
+        "nodeId": "S1Lh4Mv0W",
+        "pinKey": "HktZUCdrPkZ"
+      }
+    },
+    {
+      "id": "HyB6NMw0-",
+      "input": {
+        "nodeId": "S1Lh4Mv0W",
+        "pinKey": "SJqZ8COrDkW"
+      },
+      "output": {
+        "nodeId": "H186ZMwRb",
+        "pinKey": "SyBtREhlW"
+      }
+    },
+    {
+      "id": "S1I1rzwRb",
+      "input": {
+        "nodeId": "SkC3bfPCZ",
+        "pinKey": "HJ6HsEngZ"
+      },
+      "output": {
+        "nodeId": "S1Lh4Mv0W",
+        "pinKey": "HktZUCdrPkZ"
+      }
+    },
+    {
+      "id": "rktJHGwAW",
+      "input": {
+        "nodeId": "HkU7MMD0Z",
+        "pinKey": "HJ6HsEngZ"
+      },
+      "output": {
+        "nodeId": "S1Lh4Mv0W",
+        "pinKey": "HktZUCdrPkZ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundValues": {
+        "B134j4neZ": 3,
+        "HJ6HsEngZ": true
+      },
+      "description": "sensor vcc",
+      "id": "B1JT-zwAZ",
+      "position": {
+        "x": 204,
+        "y": 204
+      },
+      "type": "xod/core/digital-output"
+    },
+    {
+      "boundValues": {
+        "B134j4neZ": 2
+      },
+      "description": "mosfet pin",
+      "id": "BkeaWGw0W",
+      "position": {
+        "x": -68,
+        "y": 408
+      },
+      "type": "xod/core/digital-output"
+    },
+    {
+      "boundValues": {
+        "BJuORNheZ": 1
+      },
+      "description": "potentiometer",
+      "id": "H186ZMwRb",
+      "position": {
+        "x": 102,
+        "y": 204
+      },
+      "type": "xod/core/analog-input"
+    },
+    {
+      "boundValues": {
+        "B134j4neZ": 12
+      },
+      "description": "red LED",
+      "id": "HkU7MMD0Z",
+      "position": {
+        "x": 68,
+        "y": 408
+      },
+      "type": "xod/core/digital-output"
+    },
+    {
+      "id": "S1Lh4Mv0W",
+      "position": {
+        "x": 34,
+        "y": 306
+      },
+      "type": "xod/core/less"
+    },
+    {
+      "boundValues": {
+        "SkUQV5wIb": 4
+      },
+      "id": "S1nRWzPC-",
+      "position": {
+        "x": -34,
+        "y": 204
+      },
+      "type": "xod/common-hardware/dht11-thermometer"
+    },
+    {
+      "boundValues": {
+        "B134j4neZ": 11
+      },
+      "description": "blue LED",
+      "id": "SkC3bfPCZ",
+      "position": {
+        "x": 0,
+        "y": 408
+      },
+      "type": "xod/core/digital-output"
+    },
+    {
+      "boundValues": {
+        "B134j4neZ": 5
+      },
+      "description": "sensor GND",
+      "id": "SybC2ZzwC-",
+      "position": {
+        "x": 272,
+        "y": 204
+      },
+      "type": "xod/core/digital-output"
+    }
+  ]
+}

@@ -9,6 +9,7 @@
 <a id="chapter-0"></a>
 ## Project description
 SUPER-DUPER COOL ARDUINO BASED MULTICOLOR SOUND PLAYING LIGHTSABER!
+https://youtu.be/__gp2RfTMnk
 
 #### CAPABILITIES:
 * Smooth turning on/off with lightsaber-like sound effect

@@ -18,10 +18,10 @@ Humidifier with mousture sensor
 
 <a id="chapter-2"></a>
 ## DHT11
-![СХЕМА](https://github.com/AlexGyver/autoHumidifier/blob/master/scheme1.jpg)
+![СХЕМА](https://github.com/AlexGyver/EnglishProjects/blob/master/autoHumidifier/scheme1.jpg)
 
 ## DHT22
-![СХЕМА](https://github.com/AlexGyver/autoHumidifier/blob/master/scheme2.jpg)
+![СХЕМА](https://github.com/AlexGyver/EnglishProjects/blob/master/autoHumidifier/scheme2.jpg)
 
 <a id="chapter-3"></a>
 ## Материалы и компоненты

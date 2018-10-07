@@ -6,6 +6,9 @@
 - Keeps traveled distance in EEPROM, so it is not zero after reboot
 - [Quick start with Arduino](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
 
+## Download last release
+[**Click me**](https://github.com/AlexGyver/EnglishProjects/releases/download/Arduino_speedometer/Arduino_speedometer.rar)
+
 ## Schematics
 ![Speedometer 1.0](https://github.com/AlexGyver/Arduino_speedometer/blob/master/Screenshot_12.jpg)
 

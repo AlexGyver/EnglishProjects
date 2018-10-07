@@ -6,6 +6,9 @@ Trash bin with robotyzed cap
 - Cap will close after some time after you remove your hand
 - [Quick start with Arduino](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
 
+## Download last release
+[**Click me**](https://github.com/AlexGyver/EnglishProjects/releases/download/automaticTrashBin_v2/automaticTrashBin_v2.rar)
+
 ## Schematics
 ### Without MOSFET
 ![СХЕМА](https://github.com/AlexGyver/EnglishProjects/blob/master/automaticTrashBin_v2/scheme1.jpg)

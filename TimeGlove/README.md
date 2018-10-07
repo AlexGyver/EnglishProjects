@@ -6,6 +6,9 @@ Powerful strobe with frequency adjustment
 - Tilt (accelerometer) is for accurate tuning
 - [Quick start with Arduino](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
 
+## Download last release
+[**Click me**](https://github.com/AlexGyver/EnglishProjects/releases/download/TimeGlove/TimeGlove.rar)
+
 ## Schematics
 ![SCHEME](https://github.com/AlexGyver/EnglishProjects/blob/master/TimeGlove/scheme1.jpg)
 ![SCHEME](https://github.com/AlexGyver/EnglishProjects/blob/master/TimeGlove/scheme2.jpg)

@@ -1,6 +1,18 @@
 # DIY RC FPV rocket turrel
 [![MadGyver YouTube](http://alexgyver.ru/git_banner2.jpg)](https://www.youtube.com/channel/UCNEOyqhGzutj-YS-d5ckYdg?sub_confirmation=1)
 
+## Project description
+Rocket turrel with remote control by Arduino and NRF24L01
+- 10 channels - 10 rockets
+- 360 turning range horizontally
+- Controller with joystick and display
+- Up to 1 kilometer of video and control range
+- [Quick start with Arduino](https://learn.sparkfun.com/tutorials/installing-arduino-ide)
+
+## Download last release
+[**Click me**](https://github.com/AlexGyver/EnglishProjects/releases/download/RC_Turrel/RC_Turrel.rar)
+
+https://github.com/AlexGyver/EnglishProjects/archive/RC_Turrel.zip
 ## Schemes
 ![TX](https://github.com/AlexGyver/EnglishProjects/blob/master/RC_Turrel/drawings/TX_bb.jpg)
 

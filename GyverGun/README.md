@@ -18,3 +18,5 @@ Full-auto BB pneumatic rifle on Arduino
 
 ##  Components
 * Arduino NANO http://ali.pub/2sq5d4
+* Servo http://ali.pub/2sq8gq
+* Valve http://ali.pub/2sq8iv http://ali.pub/2sq8j9 http://ali.pub/2sq8jg

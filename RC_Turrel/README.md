@@ -12,7 +12,6 @@ Rocket turrel with remote control by Arduino and NRF24L01
 ## Download last release
 [**Click me**](https://github.com/AlexGyver/EnglishProjects/releases/download/RC_Turrel/RC_Turrel.rar)
 
-https://github.com/AlexGyver/EnglishProjects/archive/RC_Turrel.zip
 ## Schemes
 ![TX](https://github.com/AlexGyver/EnglishProjects/blob/master/RC_Turrel/drawings/TX_bb.jpg)
 

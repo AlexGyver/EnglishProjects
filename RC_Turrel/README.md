@@ -1,5 +1,5 @@
 # DIY RC FPV rocket turrel
-
+[![MadGyver YouTube](http://alexgyver.ru/git_banner2.jpg)](https://www.youtube.com/channel/UCNEOyqhGzutj-YS-d5ckYdg?sub_confirmation=1)
 
 ## Schemes
 ![TX](https://github.com/AlexGyver/EnglishProjects/blob/master/RC_Turrel/drawings/TX_bb.jpg)

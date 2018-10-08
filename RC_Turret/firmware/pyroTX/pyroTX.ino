@@ -1,32 +1,37 @@
-/*
+/*  
+  Arduino based FPV RC turret
+  https://github.com/AlexGyver/EnglishProjects/tree/master/RC_Turret
   Created 2017
   by AlexGyver
-  AlexGyver Home Labs Inc.
+  AlexGyver Technologies
+  for MadGyver YouTube channel
 */
-#include "Keypad.h"       //библиотека клавиатуры
-#include <SPI.h>          // библиотека для работы с шиной SPI
-#include "nRF24L01.h"     // библиотека радиомодуля
-#include "RF24.h"         // ещё библиотека радиомодуля
 
-RF24 radio(9, 10); // "создать" модуль на пинах 9 и 10 Для Уно
-byte address[][6] = {"1Node", "2Node", "3Node", "4Node", "5Node", "6Node"}; //возможные номера труб
+#define redLED 2
+#define greenLED 3
+#define ready_toggle 4
+#define launch_butt 8
 
-byte redLED = 2;
-byte greenLED = 3;
-byte ready_toggle = 4;
-byte launch_butt = 8;
+#define stickX 0
+#define stickY 1
 
-byte stickX = 0;
-byte stickY = 1;
+#include "Keypad.h"
+#include <SPI.h>
+#include "nRF24L01.h"
+#include "RF24.h"
+
+RF24 radio(9, 10);
+byte address[][6] = {"1Node", "2Node", "3Node", "4Node", "5Node", "6Node"};
+
 int stickX0, stickY0;
-int errorX, errorY;    //  переменные для расчёта ошибки
+int errorX, errorY;
 
 int check = 111;
 
 boolean check_answer;
 boolean flag, flag_fuse, launch_flag, toggle_flag;
 
-int out_data[3]; // [номер запала, состояние, позиция Х сервы, позиция У сервы]
+int out_data[3]; // [fuse flag, x position, y position]
 
 unsigned long last;
 
@@ -35,7 +40,7 @@ void setup() {
 
   pinMode(redLED, OUTPUT);
   pinMode(greenLED, OUTPUT);
-  digitalWrite(greenLED, HIGH);    // зажечь зелёный светодиод
+  digitalWrite(greenLED, HIGH);
 
   pinMode(launch_butt, INPUT_PULLUP);
   pinMode(ready_toggle, INPUT_PULLUP);
@@ -45,22 +50,19 @@ void setup() {
   delay(50);
   stickY0 = analogRead(stickY);
 
-  radio.begin(); //активировать модуль
-  radio.setAutoAck(1);         //режим подтверждения приёма, 1 вкл 0 выкл
-  radio.setRetries(0, 15);    //(время между попыткой достучаться, число попыток)
-  radio.enableAckPayload();    //разрешить отсылку данных в ответ на входящий сигнал
-  radio.setPayloadSize(6);     //размер пакета, в байтах
+  radio.begin();
+  radio.setAutoAck(1);
+  radio.setRetries(0, 15);
+  radio.enableAckPayload();
+  radio.setPayloadSize(6);
 
-  radio.openWritingPipe(address[0]);   //мы - труба 0, открываем канал для передачи данных
-  radio.setChannel(0x60);  //выбираем канал (в котором нет шумов!)
+  radio.openWritingPipe(address[0]);
+  radio.setChannel(0x60);		// СHANNEL!!!
 
-  radio.setPALevel (RF24_PA_MAX); //уровень мощности передатчика. На выбор RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, RF24_PA_MAX
-  radio.setDataRate (RF24_1MBPS); //скорость обмена. На выбор RF24_2MBPS, RF24_1MBPS, RF24_250KBPS
-  //должна быть одинакова на приёмнике и передатчике!
-  //при самой низкой скорости имеем самую высокую чувствительность и дальность!!
-
-  radio.powerUp(); //начать работу
-  radio.stopListening();  //не слушаем радиоэфир, мы передатчик
+  radio.setPALevel (RF24_PA_MAX);
+  radio.setDataRate (RF24_1MBPS);
+  radio.powerUp();
+  radio.stopListening();
 }
 
 void loop() {
@@ -94,4 +96,3 @@ void loop() {
     flag = 0;
   }
 }
-

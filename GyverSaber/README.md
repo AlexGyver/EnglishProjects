@@ -51,23 +51,23 @@ https://youtu.be/__gp2RfTMnk
 
 <a id="chapter-3"></a>
 ## Components
-* Arduino NANO http://ali.pub/20o35g  http://ali.pub/20o36t
+* Arduino NANO https://ali.ski/jmFH9_ https://ali.ski/5OBVTQ
 * Addressable LED strip. WS2811, 12V. Take **white PCB, IP30, 60 LEDs per meter**
-http://ali.pub/23csyd  http://ali.pub/23cszc  http://ali.pub/23cszq
-* Button with LED. **Take 5V version** http://ali.pub/23ct29
-* MPU6050 http://ali.pub/23mryw  http://ali.pub/23mst1
-* Cheap MicroSD http://ali.pub/23msne  http://ali.pub/23msqp
-* MicroSD module mini http://ali.pub/23ms27  http://ali.pub/23ms5b
-* Or this http://ali.pub/23ms11
-* Batteries 18650 with protection http://ali.pub/23moiu  http://ali.pub/23moke  http://ali.pub/23mol6
-* DCDC Step Down http://ali.pub/23mpex  http://ali.pub/23mpfi  http://ali.pub/23mph9
-* Amplifier http://ali.pub/23mp6d  http://ali.pub/23mp75  http://ali.pub/23mp7q
-* Speaker http://ali.pub/23mq8h  http://ali.pub/23mq9g  http://ali.pub/23mqc6
-* Resistors KIT http://ali.pub/23mqei  http://ali.pub/23mqfo
-* Power button http://ali.pub/23mtiw
-* Charging port http://ali.pub/23mtf0  http://ali.pub/23mt69
-* CC CV charger for 3 cells http://ali.pub/23mt8s  http://ali.pub/23mt9d  http://ali.pub/23mt9k
-* Prototype board http://ali.pub/23mrwy  
+https://ali.ski/NMjk8 https://ali.ski/zW95D
+* Button with LED. **Take 5V version** https://ali.ski/Mwcxt
+* MPU6050 https://ali.ski/v5KZLL https://ali.ski/uXu5vi
+* Cheap MicroSD https://ali.ski/GxgI4D
+* MicroSD module mini https://ali.ski/JHIePz https://ali.ski/KsPKO
+* Or this https://ali.ski/WKZdDk
+* Batteries 18650 with protection https://ali.ski/XBqThJ https://ali.ski/lx5do https://ali.ski/3DZON9
+* DCDC Step Down https://ali.ski/Gu17D https://ali.ski/LGc7S https://ali.ski/AZ7FEd
+* Amplifier https://ali.ski/w3a6s https://ali.ski/UJQHAm https://ali.ski/9chyq
+* Speaker https://ali.ski/fkf3b5 https://ali.ski/f3bznw https://ali.ski/NGb4L
+* Resistors KIT https://ali.ski/DsRXU https://ali.ski/0QeVi
+* Power button https://ali.ski/ADn0zC
+* Charging port https://ali.ski/-02oW https://ali.ski/-gRAOg
+* CC CV charger for 3 cells https://ali.ski/uPeDvv https://ali.ski/QY79Lj https://ali.ski/xxHSRf
+* Prototype board https://ali.ski/XTO9n
 
 <a id="chapter-7"></a>
 ## Assembly and set up

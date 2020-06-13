@@ -1,2 +1,2 @@
 # EnglishProjects
-This repository consists all my projects in English langulage version. Enjoy! =)
+This repository consists of all my projects translated into English versions. Enjoy! =)
